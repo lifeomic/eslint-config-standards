@@ -5,6 +5,9 @@
   "repository": "git@github.com:lifeomic/eslint-config-standards",
   "author": "Development <development@lifeomic.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
   "scripts": {
     "test": "eslint --ext .js ."
   },
