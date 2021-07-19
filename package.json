@@ -1,0 +1,30 @@
+{
+  "name": "@lifeomic/eslint-config-standards",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:lifeomic/eslint-config-standards",
+  "author": "Development <development@lifeomic.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "eslint --ext .js ."
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-eslint": "^7.0.0",
+    "eslint-plugin-eslint-plugin": "^3.4.0",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^27.0.6"
+  },
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/eslint-plugin-tslint": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jsdoc": "^35.4.5",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-react": "^7.24.0"
+  }
+}
