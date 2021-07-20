@@ -12,7 +12,9 @@
     "node": ">=12"
   },
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint .",
+    "build": "sh ./build.sh",
+    "prepublishOnly": "yarn build"
   },
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^4.6.0",
