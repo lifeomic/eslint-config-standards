@@ -1,3 +1,4 @@
 .github
 .eslintrc
 yarn.lock
+.releaserc.json

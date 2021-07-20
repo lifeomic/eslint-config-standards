@@ -5,6 +5,9 @@
   "repository": "git@github.com:lifeomic/eslint-config-standards",
   "author": "Development <development@lifeomic.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=12"
   },
@@ -12,10 +15,12 @@
     "test": "eslint ."
   },
   "devDependencies": {
+    "conventional-changelog-conventionalcommits": "^4.6.0",
     "eslint": "^7.31.0",
     "eslint-config-eslint": "^7.0.0",
     "eslint-plugin-eslint-plugin": "^3.4.0",
-    "eslint-plugin-node": "^11.1.0"
+    "eslint-plugin-node": "^11.1.0",
+    "semantic-release": "^17.4.4"
   },
   "peerDependencies": {
     "eslint": ">=7"
