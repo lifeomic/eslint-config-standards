@@ -57,10 +57,6 @@ In your `package.json` add the following to the `scripts` section:
   "lint": "eslint --ext .ts,.tsx,.js,.jsx ."
 ```
 
-**IMPORTANT:** You currently must explicitly add the `--ext` argument because
-`eslint` will only check `.js` files by default, and you can't control this from
-the eslint configuration.
-
 ### ESLint configuration Typescript and Jest
 
 Create `.eslintrc` at root of your project that contains:
@@ -71,10 +67,6 @@ Create `.eslintrc` at root of your project that contains:
   "extends": [
     "@lifeomic/standards"
   ],
-  "parserOptions": {
-    "project": "./tsconfig.json",
-    "tsconfigRootDir": "."
-  }
 }
 ```
 
@@ -99,10 +91,6 @@ The file must be included in at least one of the projects provided
   "extends": [
     "@lifeomic/standards/lib/typescript"
   ],
-  "parserOptions": {
-    "project": "./tsconfig.json",
-    "tsconfigRootDir": "."
-  }
 }
 ```
 
@@ -116,20 +104,6 @@ The file must be included in at least one of the projects provided
   ]
 }
 ```
-
-### ESLint configuration for React
-
-Create `.eslintrc` at root of your project that contains:
-
-```json
-{
-  ...
-  "extends": [
-    "@lifeomic/standards/lib/react"
-  ]
-}
-```
-
 
 ### ESLint configuration for Jest
 
