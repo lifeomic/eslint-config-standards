@@ -13,8 +13,7 @@
   },
   "scripts": {
     "test": "eslint .",
-    "build": "sh ./build.sh",
-    "prepublishOnly": "yarn build"
+    "build": "sh ./build.sh"
   },
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^4.6.0",
