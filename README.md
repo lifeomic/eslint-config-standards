@@ -17,7 +17,7 @@ module.exports = {
 ## Configurations
 This package provides a handful of configurations:
 
-- [`@lifeomic/standards`](index.js)
-- [`@lifeomic/standards/lib/lavascript`](lib/javascript.js)
-- [`@lifeomic/standards/lib/typescript`](lib/typescript.js)
-- [`@lifeomic/standards/lib/jest`](lib/jest.js)
+- [`@lifeomic/standards`](lib/index.js)
+- [`@lifeomic/standards/lavascript`](lib/javascript.js)
+- [`@lifeomic/standards/typescript`](lib/typescript.js)
+- [`@lifeomic/standards/jest`](lib/jest.js)
