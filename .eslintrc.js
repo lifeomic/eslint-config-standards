@@ -8,5 +8,8 @@ module.exports = {
   plugins: [
     'eslint-plugin',
     'eslint-plugin-node'
-  ]
+  ],
+  rules: {
+    semi: ['error', 'never']
+  }
 }
