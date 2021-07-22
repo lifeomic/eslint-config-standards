@@ -1,15 +1,12 @@
 module.exports = {
+  env: {
+    node: true,
+  },
+  parserOptions: {
+    ecmaVersion: 2020,
+  },
   extends: [
-    'eslint',
-    'plugin:eslint-plugin/recommended',
-    'plugin:eslint-plugin-node/recommended',
-    './lib/javascript'
+    './lib/javascript',
+    './lib/jest',
   ],
-  plugins: [
-    'eslint-plugin',
-    'eslint-plugin-node'
-  ],
-  rules: {
-    semi: ['error', 'never']
-  }
-}
+};
