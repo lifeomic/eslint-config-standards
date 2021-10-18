@@ -18,7 +18,9 @@ jobs:
       - name: Install
         run: yarn install --frozen-lockfile
       - name: Test
-        run: yarn test
+        run: |
+          yarn lint
+          yarn test
       - name: Publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -112,3 +112,5 @@ yarn-error.log
 .idea
 .iml
 .vscode/
+
+.DS_Store

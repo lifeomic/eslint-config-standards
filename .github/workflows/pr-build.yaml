@@ -19,7 +19,9 @@ jobs:
       - name: Install
         run: yarn install
       - name: Test
-        run: yarn test
+        run: |
+          yarn lint
+          yarn test
   preRelease:
     needs: test
     runs-on: ubuntu-latest
