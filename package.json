@@ -1,37 +1,37 @@
 {
-  "name": "@lifeomic/eslint-config-standards",
+  "name": "@lifeomic/eslint-config",
   "version": "0.0.0",
   "main": "index.js",
-  "repository": "git@github.com:lifeomic/eslint-config-standards",
+  "repository": {},
   "author": "Development <development@lifeomic.com>",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14.17"
   },
   "scripts": {
     "test": "eslint .",
     "build": "sh ./build.sh"
   },
   "devDependencies": {
-    "conventional-changelog-conventionalcommits": "^4.6.0",
-    "eslint": "^7.32.0",
+    "conventional-changelog-conventionalcommits": "^4.6.1",
+    "eslint": "^8.0.1",
     "eslint-config-eslint": "^7.0.0",
-    "eslint-plugin-eslint-plugin": "^3.5.3",
+    "eslint-plugin-eslint-plugin": "^4.0.1",
     "eslint-plugin-node": "^11.1.0",
-    "jest": "^27.1.0",
-    "semantic-release": "^17.4.7"
+    "jest": "^27.3.1",
+    "semantic-release": "^18.0.0"
   },
   "peerDependencies": {
-    "eslint": ">=7"
+    "eslint": "^8"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.29.3",
-    "@typescript-eslint/parser": "^4.29.3",
-    "eslint-plugin-jest": "^24.4.0",
-    "eslint-plugin-jsdoc": "^36.0.8",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint-plugin-jest": "^25.2.2",
+    "eslint-plugin-jsdoc": "^36.1.1",
     "eslint-plugin-prefer-arrow": "^1.2.3"
   }
 }
