@@ -1,7 +1,6 @@
 name: PR Build and Test
 
-on:
-  pull_request
+on: pull_request
 
 jobs:
   test:
@@ -9,13 +8,13 @@ jobs:
     name: Node.JS ${{ matrix.node-version }}
     strategy:
       matrix:
-        node-version: [14.x, 16.x, 18.x]
+        node-version: [16.x, 18.x]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'yarn'
+          cache: "yarn"
       - name: Install
         run: yarn install
       - name: Test
