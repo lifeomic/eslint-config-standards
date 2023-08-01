@@ -6,6 +6,7 @@ module.exports = {
     ecmaVersion: 2022,
   },
   extends: [
+    './lib/typescript',
     './lib/javascript',
     './lib/jest',
   ],
