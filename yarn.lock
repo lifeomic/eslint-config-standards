@@ -948,10 +948,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@lifeomic/typescript-config@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@lifeomic/typescript-config/-/typescript-config-3.0.0.tgz#42c345329d45d453bec6cee017291a7d4ca40ada"
-  integrity sha512-Wct9JnOgoYrLzOm1gnzy/YO0QrcnU/hqNV4nVzxgyzs02640Gud106fWiAOLgM3H6AbjJaQUD4yZHJNe3Sgs3g==
+"@lifeomic/typescript-config@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@lifeomic/typescript-config/-/typescript-config-3.1.0.tgz#853b8f8db86b2a83b21302b0d3305dcf495b15c1"
+  integrity sha512-Ypgvbr6eKnjkEak5fhfknP/TuNv6UVIHlilBFxA4Ga7J9vWpQX/7M2cM7JeUX0wKZ2+wnU4Ah8AfTqB2Pq/WLA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -5370,6 +5370,11 @@ react-is@^18.0.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
+
+react@^19.2.0:
+  version "19.2.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-19.2.0.tgz#d33dd1721698f4376ae57a54098cb47fc75d93a5"
+  integrity sha512-tmbWg6W31tQLeB5cdIBOicJDJRR2KzXsV7uSK9iNfLWQ5bIZfxuPEHp7M8wiHyHnn0DD1i7w3Zmin0FtkrwoCQ==
 
 read-cmd-shim@^4.0.0:
   version "4.0.0"
