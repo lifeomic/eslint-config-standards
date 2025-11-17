@@ -5,7 +5,7 @@ interface User {
 
 const user: User = {
   id: 1,
-  name: "Test User",
+  name: 'Test User',
 };
 
 export const greetUser = (user: User): string => {
