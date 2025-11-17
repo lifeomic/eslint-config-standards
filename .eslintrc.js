@@ -7,7 +7,8 @@ module.exports = {
   },
   extends: [
     './lib/typescript',
-    './lib/javascript',
     './lib/jest',
+    './lib/javascript',
+    './lib/react',
   ],
 };
